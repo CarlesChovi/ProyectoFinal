@@ -4,16 +4,14 @@ public class Videoclub {
 	
 		private String titulo;
 		private String director;
-		private String año;
-		private String actores;
+		private int año;
 		private String genero;
 		
 
 		public Videoclub(){
 			titulo="";
 			director="";
-			año="";
-			actores="";
+			año=0;
 			genero="";
 		}
 
@@ -23,11 +21,8 @@ public class Videoclub {
 		public void setDirector(String b){
 			director=b;
 		}
-		public void setAño(String c){
+		public void setAño(int c){
 			año=c;
-		}
-		public void setActores(String d){
-			actores=d;
 		}
 		public void setGenero(String e){
 			genero=e;
@@ -39,11 +34,8 @@ public class Videoclub {
 		public String getDirector(){
 			return director;
 		}
-		public String getAño(){
+		public int getAño(){
 			return año;
-		}
-		public String getActores(){
-			return actores;
 		}
 		public String getGenero(){
 			return genero;
